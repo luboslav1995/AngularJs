@@ -1,4 +1,0 @@
-AngularJs
-=========
-
-SPA with AngularJs

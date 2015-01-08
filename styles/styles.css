@@ -1,2 +1,13 @@
 ﻿body {
+    margin-bottom: 50px;
+}
+footer {
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+}
+footer p {
+    text-align: center;
+    color: #fff;
 }
