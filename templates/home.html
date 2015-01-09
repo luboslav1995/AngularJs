@@ -1,17 +1,17 @@
-﻿<header>
-    <h1>Ads - {{ pageTitle }}</h1>
-</header>
-<div id="wrapper">
-    <div class="row">
+﻿    <header>
+        <h1>Ads - {{pageTitle}}</h1>
+    </header>
+    <div id="wrapper">
         <div class="col-md-3">
-            <left-public-sidebar></left-public-sidebar>
+            <div ng-include="'templates/public/left-sidebar.html'" ng-if="!isLoggedIn"></div>
+            <div ng-include="'templates/public/logged-in-sidebar.html'" ng-if="isLoggedIn"></div>
         </div>
         <div class="col-md-6">
             <public-ads></public-ads>
         </div>
         <div class="col-md-3">
-            <categoories></categoories>
+            <categories></categories>
             <towns></towns>
         </div>
+
     </div>
-</div>
