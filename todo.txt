@@ -4,4 +4,4 @@ TODO:
 3.delete ads
 4.admin panel
 5.pagging
-6.Better design
+6.Better design - done !
