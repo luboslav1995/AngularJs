@@ -1,0 +1,5 @@
+TODO:
+1.Add ads
+2.Edit adds
+3.delete ads
+4.admin panel
