@@ -1,8 +1,7 @@
 ﻿<div id="categories" class="navigation">
     <h2>Categories</h2>
-    <ul>
-        <li ng-repeat="category in categories" ng-click="categoryClicked(category)">
+        <button class="btn btn-warning button-categories" ng-repeat="category in categories" ng-click="categoryClicked(category)">
             {{category.name}}
-        </li>
-    </ul>
+        </button>
+    
 </div>

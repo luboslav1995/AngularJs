@@ -12,7 +12,7 @@ footer p {
     color: #fff;
 }
 .navigation {
-    background-color: #ffe;
+    background-color: #d1d1d1;
     border: 1px solid grey;
     border-radius: 5px;
     padding: 10px;
@@ -30,9 +30,27 @@ footer p {
     width: 130px;
     height: 40px;
 }
-.navigation ul .left-in-sidebar {
-    list-style-type: none;
+.button-categories {
+    width: 90%;
+    margin: 5px;
+}
+.navigation .left-in-sidebar a {
+    width: 90%;
+    margin: 5px;
+}
+.navigation .left-in-sidebar button {
+    width: 90%;
+    margin: 5px;
+}
+.public-ads-main {
+    background-color: #cdd7d8;
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.public-ads {
     margin: 10px;
-    padding: 0;
-    border: none;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 5px;
 }

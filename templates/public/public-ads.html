@@ -1,6 +1,9 @@
-﻿<div class="public-ads navigation">
+﻿<div class="public-ads-main">
     <img src="images/loading.gif" ng-hide="ready" />
-    <ul ng-cloak>
-        <li ng-repeat="ad in adsData.ads">{{ad.title}}</li>
-    </ul>
+    <div class="public-ads" ng-cloak>
+        <h3 ng-repeat="ad in adsData.ads">{{ad.title}}</h3>
+        <p ng-repeat="ad in adsData.ads">{{ad.text}}</p>
+        <p ng-repeat="ad in adsData.ads">{{ad.date}}</p>
+    </div>
+
 </div>
