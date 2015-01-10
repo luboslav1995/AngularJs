@@ -53,4 +53,14 @@ footer p {
     background-color: #fff;
     border: 1px solid grey;
     border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+.ads-titles {
+    color: black;
+    font-weight: bold;
+}
+.p-ads {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
 }

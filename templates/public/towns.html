@@ -1,8 +1,5 @@
 ﻿<div class="navigation">
     <h2>Towns</h2>
-    <ul>
-        <li ng-repeat="town in towns">
-            {{town.name}}
-        </li>
-    </ul>
+    <button ng-repeat="town in towns" ng-click="townClicked(town)" class="btn btn-warning button-categories">
+        {{town.name}}</button>
 </div>
