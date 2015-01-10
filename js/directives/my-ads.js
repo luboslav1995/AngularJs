@@ -1,4 +1,4 @@
-﻿app.directive('publishAds', function () {
+﻿app.directive('myAds', function () {
     return {
         controller: 'MyAdsController',
         restrict: 'E',

@@ -1,4 +1,4 @@
-﻿app.directive('publishAds', function () {
+﻿app.directive('editProfile', function () {
     return {
         controller: 'EditProfileController',
         restrict: 'E',

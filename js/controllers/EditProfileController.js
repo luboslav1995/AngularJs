@@ -1,3 +1,3 @@
-﻿app.controller('PublishAdController', ['$scope', function ($scope) {
+﻿app.controller('EditProfileController', ['$scope', function ($scope) {
 
 }]);

@@ -1,3 +1,3 @@
-﻿app.controller('PublishAdController', ['$scope', function ($scope) {
+﻿app.controller('MyAdsController', ['$scope', function ($scope) {
 
 }]);

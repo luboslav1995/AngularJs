@@ -1,3 +1,3 @@
-﻿app.controller('PublishAdController', ['$scope', '$location', 'userData', function ($scope, $location, userData) {
+﻿app.controller('PublishAdController', ['$scope', function ($scope) {
     
 }]);
