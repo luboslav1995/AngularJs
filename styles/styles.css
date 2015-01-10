@@ -64,3 +64,9 @@ footer p {
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
+.heading {
+    font-size: 1.9em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin: 10px;
+}

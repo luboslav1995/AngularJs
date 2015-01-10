@@ -21,12 +21,18 @@ app.config(['$routeProvider', function ($routeProvider) {
         templateUrl: 'templates/register.html',
         controller: 'RegisterController'
     });
-    $routeProvider.when('/', {
-        templateUrl: 'templates/home.html',
-        controller: 'HomeController'
+    $routeProvider.when('/user/ads/publish', {
+        templateUrl: 'templates/user/publish-ads.html',
+        controller: 'PublishAdController'
     });
-
-    
+    $routeProvider.when('/user/ads', {
+        templateUrl: 'templates/user/my-ads.html',
+        controller: 'MyAdsController'
+    });
+    $routeProvider.when('/user/editProfile', {
+        templateUrl: 'templates/user/edit-profile.html',
+        controller: 'EditProfileController'
+    });
 
     $routeProvider.otherwise({
         redirectTo: '/'
