@@ -4,4 +4,3 @@ for 10.01.2015:
 2.Edit adds
 3.delete ads
 4.admin panel
-5.pagging
