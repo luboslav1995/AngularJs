@@ -2,12 +2,13 @@
     <img src="images/loading.gif" ng-hide="ready" />
     <div ng-repeat="ad in adsData.ads" class="public-ads" ng-cloak>
         <h2><span class="ads-titles">Title: </span>{{ad.title}}</h2>
+        <img class="pull-left" src="{{ad.imageDataUrl}}" width="250px" />
         <p class="p-ads"><span class="ads-titles">Text: </span>{{ad.text}}</p>
         <p class="p-ads"><span class="ads-titles">Date: </span>{{ad.date | date: 'd-MMM-yyyy'}}</p>
         <p class="p-ads"><span class="ads-titles">Name: </span>{{ad.ownerName}}</p>
         <p class="p-ads"><span class="ads-titles">Email: </span>{{ad.ownerEmail}}</p>
         <p class="p-ads"><span class="ads-titles">Phone: </span>{{ad.ownerPhone}}</p>
-        <img src="{{ad.imageDataUrl}}" width="150px" />
+        
     </div>
     <pagination 
                 page="startPage" 

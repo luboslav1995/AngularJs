@@ -6,7 +6,12 @@
 
     function getUserData(data) {
         return angular.fromJson(localStorage.getItem(key));
-        console.log()
+        
+    }
+
+    function getName() {
+        var currentUserName = getUserData().username;
+        return currentUserName;
     }
 
     function getHeaders() {
@@ -14,6 +19,7 @@
         var userData = getUserData;
         if (userData) {
             headers.Authorization = 'Bearer ' + getUserData().access_token;
+            
         };
         return headers;
     }
@@ -36,7 +42,8 @@
         getHeaders: getHeaders,
         removeUser: removeUser,
         isAdmin: isAdmin,
-        isLoggedIn: isLoggedIn
+        isLoggedIn: isLoggedIn,
+        getName: getName
     }
 
 });

@@ -8,7 +8,7 @@ app.config(['$routeProvider', function ($routeProvider) {
         templateUrl: '/templates/home.html',
         controller: 'HomeController'
     });
-  
+
     $routeProvider.when('/#', {
         templateUrl: '/templates/home.html',
         controller: 'HomeController'
@@ -21,10 +21,12 @@ app.config(['$routeProvider', function ($routeProvider) {
         templateUrl: 'templates/register.html',
         controller: 'RegisterController'
     });
-    $routeProvider.when('/logout', {
+    $routeProvider.when('/', {
         templateUrl: 'templates/home.html',
-        controller: 'LogoutController'
+        controller: 'HomeController'
     });
+
+    
 
     $routeProvider.otherwise({
         redirectTo: '/'
