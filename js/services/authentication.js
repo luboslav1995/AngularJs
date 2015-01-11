@@ -23,7 +23,14 @@
         };
         return headers;
     }
+    function getToken() {
+        var userData = getName();
 
+        if (userData) {
+            return 'Bearer ' + userData.access_token;
+        }
+        return null;
+    }
     function removeUser() {
         localStorage.removeItem(key);
     }
@@ -43,7 +50,8 @@
         removeUser: removeUser,
         isAdmin: isAdmin,
         isLoggedIn: isLoggedIn,
-        getName: getName
+        getName: getName,
+        getToken: getToken
     }
 
 });
