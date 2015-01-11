@@ -5,6 +5,7 @@
         .save(user)
         .$promise
         .then(function (data) {
+
             authentication.saveUser(data);
         });
     }
